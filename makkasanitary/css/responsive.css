@@ -1,0 +1,72 @@
+/*
+* @Media Query Css
+*/
+@media (max-width: 1024px) {}
+@media (max-width: 800px) {}
+@media (max-width: 768px) {
+    .wxs_100,td.wxs_100,
+    td.wmd_70,td.wmd_30{
+        display: block;
+        width: 100%;
+    }
+    span.qty_price_header{width: 25%;}
+    span.qty_price{width: 33%;}
+    #access_list li{width: 32.5%;}
+}
+@media (max-width: 767px) {
+    .body_pad{padding-left: 0;}
+    .xs_txt_center {text-align: center;}
+    .xs_txt_left {text-align: left;}
+    #app_nav_collapse .navbar-right{margin-right: -15px;}
+    #app_nav_collapse .navbar-right li.xs_pad_lft{padding-left: 15px;}
+    .page-title {font-size: 20px;}
+    #admin_nav {
+        left: -2000px;
+        width: 170px;
+    }
+    .site_nav_links{
+        left: 0;
+        width: 100%;
+    }
+    .wxs_100,td.wxs_100,td.wmd_70,td.wmd_30{
+        display: block;
+        width: 100%;
+    }
+    .txt_left_xs,
+    .txt_left_xs .text-center,
+    .txt_left_xs .text-right{text-align: left;}
+    input#q {width: 50%;}
+    .wxs_100 input#q {width: 76%;}
+    span.qty_price_header{width: 25%;}
+    span.qty_price{width: 33%;}
+    .xsw_100{width: 100%;}
+    select#status{width: 100% !important;}
+    #search, #admin_reset_btn, #printMemo{
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+    #admin_del_btn,
+    .wmd_30 .btn-success{width: 100%;}
+    #frmPaymentSettings .list-inline li{width: 100%;}
+    .modal-body .no_pad_lft{padding-left: 15px !important;}
+    .modal-body .no_pad_rgt{padding-right: 15px !important;}
+    .th_td_xs_50{width: 50%;}
+    table tr th span.qty_price_header,
+    table tr td span.qty_price{width: 50%;}
+    table tr td span.pull-right:first-of-type{width: 200px;}
+    table tr td span.pull-right:first-of-type .add_to_cart{width: 100%;}
+    .psizes .form-control{width: 100px;}
+}
+@media (max-width: 640px) {}
+@media (max-width: 480px){
+    .cxs_2{width: 16.6667%;}
+    .cxs_10{width: 83.3333%;}
+    .cxs_12{margin-top: 5px;width: 100%;}
+    .site_nav_links ul{float: none;text-align: left;}
+    .navbar-brand img{margin: 0 auto;}
+    .btn_sm_block{width: 100%;}
+    #access_list li{width: 100%;}
+}
+@media (max-width: 400px) {}
+@media (max-width: 360px) {}
